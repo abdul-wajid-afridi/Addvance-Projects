@@ -1,0 +1,87 @@
+.nav-items {
+  height: 100px;
+  background: rgb(113, 158, 173);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+.cName {
+  text-decoration: none;
+  padding: 10px 12px;
+  color: white;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+.cName:hover {
+  text-decoration: none;
+  padding: 10px 12px;
+  color: black;
+  background: lightblue;
+  border: 1px solid black;
+  box-shadow: 0 0 3px 1px;
+  border-radius: 5px;
+}
+
+/* ********************ICONS****************** */
+.close i {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close {
+  display: none;
+}
+
+/* ********************FOR SMALL SCREEN MEDIA****************** */
+@media (max-width: 500px) {
+  .close {
+    display: flex;
+  }
+  .nav-items {
+    display: relative;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: rgb(112, 173, 194);
+    left: 0;
+    opacity: 1;
+    transition: 0.5s ease;
+    z-index: 1;
+  }
+  .cName {
+    text-decoration: none;
+    padding: 10px 12px;
+    color: white;
+    background: transparent;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+  }
+  .cName:hover {
+    text-decoration: none;
+    padding: 10px 12px;
+    color: black;
+    background: lightblue;
+    border: 1px solid black;
+    box-shadow: 0 0 3px 1px;
+    border-radius: 5px;
+  }
+}

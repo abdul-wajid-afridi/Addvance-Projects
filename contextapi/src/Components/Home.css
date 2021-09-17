@@ -1,0 +1,42 @@
+.banner {
+  background: url("../images/banner.jpg") no-repeat;
+  height: 60vh;
+  width: 100%;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  transition: all 0.5s ease-in;
+}
+.inner-text {
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  inset: 0;
+}
+.banner:hover {
+  background: url("../images/hover.jpg");
+  z-index: 1;
+
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  transition: all 0.5s;
+}
+@media (max-width: 698px) {
+  .inner-text {
+    font-size: 15px;
+  }
+}

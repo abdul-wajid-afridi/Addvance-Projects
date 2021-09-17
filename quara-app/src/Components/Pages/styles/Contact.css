@@ -1,0 +1,118 @@
+.contact {
+  background: url("../../../Images/telephone.jpg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.contact__container {
+  height: 80vh;
+  width: 80%;
+  background: rgb(255, 255, 255, 0.5);
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 7px 3px;
+  display: flex;
+  position: relative;
+}
+.container__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.container__form form h3 {
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid orangered;
+}
+.container__form input {
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  background: rgb(255, 215, 142);
+}
+.container__form input:hover {
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  box-shadow: 0 0 4px 2px;
+}
+.container__form textarea {
+  border: 1px solid orange;
+  border-radius: 15px;
+  transition: 0.4s ease;
+  background: rgb(255, 214, 138);
+}
+.container__form textarea:hover {
+  border: 1px solid orange;
+  border-radius: 15px;
+  transition: 0.4s ease;
+  box-shadow: 0 0 4px 2px;
+}
+.contact__btn {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  color: white;
+  font-weight: bold;
+  background: orange;
+  transition: 0.4s ease;
+}
+.contact__btn:hover {
+  padding: 5px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+  transition: 0.4s ease;
+  box-shadow: 0 0 4px 2px white;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 50px;
+  gap: 20px;
+}
+
+.user i {
+  display: flex;
+  gap: 20px;
+}
+.email i {
+  display: flex;
+  gap: 20px;
+}
+.address i {
+  display: flex;
+  gap: 20px;
+}
+.phone i {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 580px) {
+  .contact__container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 5px;
+  }
+}

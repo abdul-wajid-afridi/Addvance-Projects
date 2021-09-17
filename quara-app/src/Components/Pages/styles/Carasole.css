@@ -1,0 +1,42 @@
+.carasole {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 0 0 6px 3px;
+  margin-top: 5px;
+}
+.image {
+  height: 70vh;
+  width: 100%;
+}
+
+.carasole h4 {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  font-weight: bold;
+}
+.right {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+  color: blue;
+  border: 2px solid orange;
+  border-radius: 25px;
+}
+.left {
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+  color: blue;
+  border: 2px solid orange;
+  border-radius: 25px;
+}

@@ -1,0 +1,97 @@
+.about {
+  height: 90vh;
+  width: 100%;
+  background: url("../../../Images/home.jpg");
+}
+.about__container {
+  height: 65vh;
+  width: 45%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 6px 3px;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+.about__container h3 {
+  color: white;
+  margin-left: 5px;
+}
+.peagons {
+  border: 1px solid white;
+  height: 6px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+}
+.span1 {
+  height: 6px;
+  width: 70%;
+  background: rgb(68, 113, 236);
+}
+
+.ducks {
+  border: 1px solid white;
+  height: 6px;
+  width: 60%;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+}
+.span2 {
+  height: 6px;
+  width: 60%;
+  background: rgb(80, 220, 255);
+}
+
+.eagles {
+  border: 1px solid white;
+  height: 6px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+}
+.span3 {
+  height: 6px;
+  width: 15%;
+  background: rgb(255, 90, 25);
+}
+.parrotes {
+  border: 1px solid white;
+  height: 6px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+}
+.span4 {
+  height: 6px;
+  width: 30%;
+  background: rgb(109, 255, 25);
+}
+.round1 {
+  height: 30px;
+  width: 30px;
+  background: linear-gradient(
+    to right,
+    rgba(179, 17, 17, 0.575),
+    rgba(255, 48, 245, 0.973),
+    rgb(253, 182, 49) 70%
+  );
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}

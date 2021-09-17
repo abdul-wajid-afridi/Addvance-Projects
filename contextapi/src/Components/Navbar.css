@@ -1,0 +1,53 @@
+nav {
+  height: 80px;
+  width: 100%;
+  background: rgb(255, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.logo{
+  color: orange;
+  font-weight: 800;
+  border-top: 3px transparent;
+  transition: .5s ease;
+}
+.logo:hover{
+  color: orange;
+  font-weight: 800;
+  border-top: 3px solid orange;
+  transition: .5s ease;
+}
+.left {
+  text-align: left;
+  width: 50%;
+}
+.right {
+  text-align: right;
+  width: 50%;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  color: rgb(255, 166, 1);
+  text-decoration: none;
+  font-weight: 800;
+}
+.cart {
+  font-size: 30px;
+  color: orange;
+}
+.add {
+  position: absolute;
+  top: 0;
+  padding: 3px 10px;
+  background: orange;
+  border-radius: 20px;
+  color: black;
+  margin-left: 5px;
+}

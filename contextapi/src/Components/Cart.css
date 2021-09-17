@@ -1,0 +1,41 @@
+.cart-container {
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.cart-card {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+.image {
+  height: 200px;
+  width: 300px;
+}
+.cart-card * {
+  color: orange;
+  margin: 4px;
+}
+.cart-card span {
+  font-size: 30px;
+  color: black;
+  background: lightgrey;
+  padding: 0px 5px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.plus:hover {
+  background: rgb(255, 82, 82);
+  color: white;
+  transition: 0.5s ease;
+}
+.minus:hover {
+  background: rgb(76, 218, 76);
+
+  transition: 0.5s ease;
+  color: white;
+}
